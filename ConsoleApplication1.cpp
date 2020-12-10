@@ -9,7 +9,7 @@ int main()
 {
     char input[100],input1[100];
     int c = 0, d = 0;
-    scanf_s("%[^\n]", input,100);
+    scanf("%[^\n]", input);
    // cin >> input;
 
     while (input[c] != '\0')
